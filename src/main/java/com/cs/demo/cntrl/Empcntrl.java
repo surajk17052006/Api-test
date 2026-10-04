@@ -18,7 +18,7 @@ public class Empcntrl {
 	String saveemp() {
 		return "SAVE EMPOLOYEE HERE...";
 	}
- 	@PutMapping("eupdate")
+ 	@PutMapping("/eupdate")
 	String updateemp() {
  		return "UPDATE EMPOLOYEE HERE...";
 	}
